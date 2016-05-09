@@ -1,0 +1,55 @@
+{
+  "name": "english_webpack",
+  "version": "1.0.0",
+  "description": "starter project with hapi, webpack, angular, es6 and bootstrap",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "bundle": "webpack && cp frontend/index.html dist/"
+  },
+  "keywords": [
+    "angularjs",
+    "webpack",
+    "es6",
+    "javascript",
+    "bootstrap",
+    "less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugenefedotov/english_webpack.git"
+  },
+  "author": "Eugene Fedotov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugenefedotov/english_webpack/issues"
+  },
+  "homepage": "https://github.com/eugenefedotov/english_webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-1": "6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
+    "less-loader": "^2.2.3",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "hapi": "^13.3.0",
+    "jquery": "^2.2.0",
+    "less": "^2.7.0"
+  }
+}
